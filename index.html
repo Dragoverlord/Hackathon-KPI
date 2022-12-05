@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./style.css" />
+    <title></title>
+</head>
+<body>
+         <!--!=========================== navbar start ===========================-->
+         <div class="container1">
+            <div class="block1">
+              <div class="header1">
+                <nav class="burger-manu">
+                  <div class="navbar">
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                          <span class="line line1"></span>
+                          <span class="line line2"></span>
+                          <span class="line line3"></span>
+                        </div>  
+                      <div class="menu-items">
+                        <ul>
+                          <a href="#">
+                            <li>Home</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+                <div class="header_logo1">
+                  <h2>HIGH</h2>
+                  <img src="https://img.freepik.com/free-vector/hand-drawn-pen-high-school-logo_23-2149689293.jpg" alt="" />
+                  <h2>School</h2>
+                </div>
+                <div class="header_center1">
+                    <ul>
+                        <a href="#">
+                          <li></li>
+                        </a>
+                      </ul>
+                </div>
+                <div class="search-box1">
+                  <input
+                    type="text"
+                    class="search-txt"
+                    placeholder="Search"
+                  />
+                  <a href="" class="search-btn"
+                    ><img
+                      src="
+                      https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon.png
+                      "
+                      alt="search"
+                  /></a>
+              </div>
+              <div id="open-admin"></div>
+            </div>
+          </div>
+        </div>
+          <!--!================== navbar end ========================-->
+              <!-- ! CREATE START -->
+    <div class="section__add">
+        <div class="accordion__header">Create card Students</div>
+        <div id="accordion__body">
+          <input
+            type="text"
+            class="section__add_name"
+            placeholder="Имя"
+          />
+          <input type="number" class="section__add_tel" placeholder="Numbers" />
+
+          <input
+            type="text"
+            class="section__add_lastName"
+            placeholder="фамилия"
+          />          
+          <input type="number" class="section__add_week" placeholder="week-KPI" />
+          <input type="number" class="section__add_month" placeholder="MON-KPI" />
+          <input
+            type="text"
+            class="section__add_mark"
+            placeholder="mark"
+          />
+          
+          <input 
+            type="text"
+            class="section__add_url"
+            placeholder="url Изображение Студента"
+          />
+          <button class="section__add_btn-add">Add</button>
+        </div>
+      </div>
+      <!-- ! CREATE END -->
+  
+  <!-- ! FILTER START -->
+  <form>
+    <input type="radio" value="bad" name="2" />
+    <label for="">Bad</label>
+    <br />
+    <input type="radio" value="Good" name="2" />
+    <label for="">Good</label>
+    <br />
+    <input type="radio" value="perfect" name="2" />
+    <label for="">Perfect</label>
+    <br />
+    <input type="radio" value="all" name="2" />
+    <label for="latte">All Students</label>
+    <br />
+  </form>
+  <!-- ! FILTER END -->
+  
+      <!-- ! READ START -->
+      <div id="section__read" class="block2 d-flex flex-wrap"></div>
+      <!-- ! READ End -->
+  
+      <!-- ! pagination start -->
+  
+      <div class="paginate">
+        <button id="prev-btn">prev</button>
+        <button id="next-btn">next</button>
+      </div>
+  
+      <!-- ! pagination end-->
+  
+      <!-- !=============== Edit start ========= -->
+  
+      <div class="main-modal">
+        <div class="main-modal__window">
+          <button class="window__edit_close">x</button>
+          <input
+            type="text"
+            class="section__edit_name"
+            placeholder="Имя"
+          />
+          <input type="number" class="section__edit_tel" placeholder="Numders" />
+          <input
+            type="text"
+            class="section__edit_lastName"
+            placeholder="фамилия"
+          />
+          <input
+            type="text"
+            class="section__edit_mark"
+            placeholder="mark"
+          />
+          <input type="number" class="section__edit_week" placeholder="week-KPI" />
+          <input type="number" class="section__edit_month" placeholder="MON-KPI" />
+          <input
+            type="text"
+            class="section__edit_url"
+            placeholder="url Изоброжение"
+          />
+          <button class="window__edit_btn-save">Edit</button>
+        </div>
+      </div>
+  
+      <!-- !=============== Edit End ========= -->
+      <!--? content start -->
+      <div
+        id="products-list"
+        class="d-flex flex-wrap justify-content-center"
+      ></div>
+      <!--? content end -->
+              <!-- !================= footer Start ====================== -->
+        <!--! Section: Social media -->
+        <footer class="text-light">
+            <!--! Section: Links  -->
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <!--!Grid row -->
+                <div class="row mt-3">
+                  <!--! Grid column -->
+      
+                  <!-- !Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!--! Links -->
+                    <h6 class="fw-bold mb-4">HIGH School</h6>
+                    <p>
+                      <a href="#!" class="text-reset text-decoration-none"
+                        >
+                        quality training</a
+                      >
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset text-decoration-none"
+                        >professional approach</a
+                      >
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset text-decoration-none"
+                        >
+                        program learning</a
+                      >
+                    </p>
+                  </div>
+                  <!--! Grid column -->
+      
+                  <!--! Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!--! Links -->
+                    <h6 class="fw-bold mb-4">
+                      the benefits of our training</h6>
+                    <p>
+                      <a href="#!" class="text-reset text-decoration-none"
+                        >
+                        quality education</a
+                      >
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset text-decoration-none"
+                        >
+                        the best professors</a
+                      >
+                    </p>
+                  </div>
+                  <!--! Grid column -->
+      
+                  <!--! Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!--! Links -->
+                    <h6 class="fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3"></i>HIGH School</p>
+                    <p>
+                      <i class="fas fa-envelope me-3"></i>
+                      HIGH School.KG@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> +996 700 321 575</p>
+                    <p><i class="fas fa-print me-3"></i> +996 702 238 138</p>
+                  </div>
+                  <!--! Grid column -->
+                </div>
+                <!--! Grid row -->
+              </div>
+            </section>
+            <!--! Section: Links  -->
+            <!--! Copyright -->
+            <div
+              class="text-center p-4"
+              style="background-color: rgba(0, 0, 0, 0.05)"
+            >
+              © 2022 Copyright:
+              <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+              >HIGH School</a
+              >
+            </div>
+            <!--! Copyright -->
+          </footer>
+          <!-- !================= footer End ====================== -->
+          <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+          crossorigin="anonymous"
+        ></script>
+        <script src="./script.js"></script>
+</body>
+</html>
